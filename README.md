@@ -184,7 +184,7 @@ nextflow run /path/to/edwardbirdlab/BALROG-MON -c /path/to/config.cfg
 ```sh
 nextflow run -resume /path/to/edwardbirdlab/BALROG-MON -c /path/to/config.cfg --taxid-list /path/to/taxid_list.txt
 ```
-3. Optional: Multi-QC
+3. Optional: Multi-QC (***NOT IMPLEMENTED YET***)
 ```sh 
 nextflow run /path/to/edwardbirdlab/BALROG-MON -c /path/to/config.cfg --workflow-opt multiqc
 ```
